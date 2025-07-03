@@ -4,10 +4,10 @@ import java.util.Scanner;
 public class triangolo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Inserisci un numero positivo");
+        System.out.println("Inserisci un numero positivo diverso da 0");
         int numero = scanner.nextInt();
 
-        if(numero < 0) { 
+        if(numero <= 0) { 
             System.out.println("Spiacente il numero inserito non è positivo");
         } else {
 
